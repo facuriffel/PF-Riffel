@@ -173,7 +173,7 @@ nav a:hover {
 
 
 
-/* COLORES */
+/*************************** COLORES ***************************/
 
 .colorGrid{
     max-width: 70%;
@@ -191,7 +191,7 @@ nav a:hover {
     width: 100%;
 }
 
-.colorGrid a, p {
+.colorGrid p {
     text-decoration: none;
     color: #020303;
     font-size: 1.5rem;
@@ -199,10 +199,101 @@ nav a:hover {
 
 @media (max-width: 1023px){
     .colorGrid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
-    
+
+
+
+/*************************** UBICACION ***************************/
+
+.dondeContenedor {
+    background-color: #fafafa;
+    font-family: 'mi fuente';
+    width: 663px;
+    height: 60px;
+    margin-bottom: 0%;
+    text-align: center;
+    padding-top: 10px;
+    margin: auto;
+    margin-top: 40px;
+    border: #f0f0f0 2px solid;
+}
+
+
+
+.ubi {
+    background-color: #fafafa;
+    width: 665px;
+    height: 510px;
+    padding: 30px;
+    border: 3px #333 solid;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 56px;
+}
+
+
+/*************************** CONTACTO ****************************/
+
+.contactoContenedor {
+    background-color: #fafafa;
+    font-family: 'mi fuente';
+    width: 645px;
+    height: 60px;
+    margin-bottom: 0%;
+    text-align: center;
+    padding-top: 10px;
+    margin: auto;
+    margin-top: 40px;
+    border: #f0f0f0 2px solid;
+}
+
+.contacto {
+    background-color: #fafafa;
+    width: 645px;
+    height: 680px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 3px #333 solid;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 110px;
+}
+
+
+form {
+    font-family: 'mi fuente';
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    display: block;
+    width: 580px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'mi fuente';
+}
+
+.botonForm {
+    background-color: #333;
+    color: #fff;
+    margin: auto;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
 
 
 
