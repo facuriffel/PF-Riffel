@@ -132,6 +132,7 @@ nav a:hover {
 
 .tarjetaEntera {
     border: 3px #f0f0f0 solid;
+    height: auto;
     font-size: 25px;
     font-family: mi fuente;
     margin: auto;
@@ -171,6 +172,37 @@ nav a:hover {
 
 
 
+
+/* COLORES */
+
+.colorGrid{
+    max-width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: mi fuente;
+}
+
+.imgColor {
+    width: 100%;
+}
+
+.colorGrid a, p {
+    text-decoration: none;
+    color: #020303;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1023px){
+    .colorGrid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+    
 
 
 
