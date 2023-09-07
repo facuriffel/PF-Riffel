@@ -1,0 +1,238 @@
+
+/********************* Fuentes *********************/
+
+@font-face {
+    font-family: 'mi fuente';
+    src: url(../fuentes/Louis\ George\ Cafe.ttf);
+}
+
+@font-face {
+    font-family: 'mi fuente2';
+    src: url(../fuentes/FUTRFW.TTF);
+}
+
+
+/********************* HEADER *********************/
+
+header {
+    width: 125px;
+    text-align: center;
+    margin: auto;
+}
+
+
+.logo {
+    width: 100px;
+    margin: auto;
+}
+
+.titulo {
+    width: 120px;
+    margin: auto;
+    font-size: 30px;
+    font-family: 'mi fuente2';
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/********************* NAVBAR *********************/
+
+
+.navbar {
+    background-color: #fafafa;
+    height: 60px;
+    max-width: 70%;
+    text-align: center;
+    border-top: 1px #f0f0f0 solid;
+    border-bottom: 1px #f0f0f0 solid;
+    opacity: 95%;
+    margin: auto;
+    font-family: 'mi fuente2';
+    z-index: 999;
+}
+
+.navbar-nav {
+    margin: auto;
+    background-color: #fafafa;
+}
+
+.nav-item {
+    padding: 0px 30px;
+    text-transform: uppercase;
+    margin: auto;
+    font-weight: bold;
+}
+
+@media (max-width: 1466px) {
+    .nav-item {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 1173px) {
+    .nav-item {
+        padding: 7px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 990px) {
+    .navbar {
+        border: 1px #f0f0f0 solid ;
+    }
+}
+
+nav a:hover {
+    text-decoration: underline 2px;
+}
+
+
+/********************* CARRUSEL ******************/
+
+.carousel {
+    max-width: 50%;
+    z-index: 1;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+@media (max-width: 991px) {
+    .carousel {
+    max-width: 70%;
+    }
+}
+
+
+
+.btncarousel {
+    height: 200px;
+    background-color: #333;
+    border-radius: 10px;
+
+}
+
+
+/********************* PRODUCTOS *********************/
+
+
+.cajaSubtitulos {
+    background-color: #fafafa;
+    margin: auto;
+    text-align: center;
+    height: 40px;
+    margin-top: 50px;
+    border: #f0f0f0 1px solid;
+    font-family: 'mi fuente';
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+
+.tarjetaEntera {
+    border: 3px #f0f0f0 solid;
+    font-size: 25px;
+    font-family: mi fuente;
+    margin: auto;
+    margin-top: 40px;
+}
+
+
+.card-title {
+    font-size: 33px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.img-fluid {
+    width: 600px;
+}
+
+.card {
+    height: 515px;
+    padding: 10px;
+}
+
+@media (max-width: 1020px) {
+    .card {
+        height: 450px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .card {
+        height: 800px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+
+
+
+
+
+/*********************FOOTER*********************/
+
+footer {
+display: grid;
+width: 100%;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr 1fr;
+background-color: #f0f0f0;
+margin-bottom: 0;
+margin-top: auto;
+height: fit-content;
+}
+
+
+.redes {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: auto;
+}
+
+.redes img {
+    width: 40px;
+}
+
+.redes nav {
+    width: 240px;
+    padding-top: 10px;
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.redes a {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.info ul {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info li {
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.info a {
+    color: black;
+}
