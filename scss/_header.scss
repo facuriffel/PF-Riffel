@@ -1,0 +1,77 @@
+/*************** HEADER *****************/
+
+@mixin anclas {
+  text-decoration: none;
+  color: $color-gris;
+}
+
+header {
+  text-align: center;
+  margin: auto;
+}
+
+.logo {
+  width: 100px;
+  margin: auto;
+}
+
+.titulo {
+  width: 120px;
+  margin: auto;
+  font-size: 30px;
+  font-family: "mi fuente2";
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/********************* NAVBAR *********************/
+
+.navbar {
+  background-color: $color-blanco;
+  height: 60px;
+  max-width: 70%;
+  text-align: center;
+  border-top: 1px $color-borde-blanco solid;
+  border-bottom: 1px $color-borde-blanco solid;
+  opacity: 95%;
+  margin: auto;
+  font-family: "mi fuente2";
+  z-index: 999;
+}
+
+.navbar-nav {
+  margin: auto;
+  background-color: $color-blanco;
+}
+
+.nav-item {
+  padding: 0px 30px;
+  text-transform: uppercase;
+  margin: auto;
+  font-weight: bold;
+}
+
+@media (max-width: 1466px) {
+  .nav-item {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 1173px) {
+  .nav-item {
+    padding: 7px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    border: 1px $color-borde-blanco solid;
+    max-width: 100%;
+  }
+}
+
+nav a:hover {
+  @include anclas;
+  text-decoration: underline 2px;
+}

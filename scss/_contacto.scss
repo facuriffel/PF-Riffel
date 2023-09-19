@@ -1,0 +1,71 @@
+/*************************** CONTACTO ****************************/
+
+.contactoContenedor {
+  background-color: $color-blanco;
+  font-family: 'mi fuente';
+  width: 100%;
+  height: 60px;
+  margin-bottom: 0%;
+  text-align: center;
+  padding-top: 10px;
+  margin: auto;
+  margin-top: 40px;
+  border: $color-borde-blanco 2px solid;
+  text-transform: uppercase;
+}
+
+.contacto {
+  background-color: $color-blanco;
+  width: 645px;
+  height: 680px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 3px $color-gris solid;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 110px;
+}
+
+@media (max-width: 991px) {
+
+  .contacto,
+  label,
+  form,
+  input,
+  textarea {
+    max-width: 100%;
+  }
+}
+
+form {
+  font-family: 'mi fuente';
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  display: block;
+  width: 580px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: 'mi fuente';
+}
+
+.botonForm {
+  background-color: #333;
+  color: #fff;
+  margin: auto;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-left: auto;
+}

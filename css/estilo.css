@@ -1,440 +1,397 @@
-
-/********************* Fuentes *********************/
-
-@font-face {
-    font-family: 'mi fuente';
-    src: url(../fuentes/Louis\ George\ Cafe.ttf);
+* {
+  margin: 0;
+  padding: 0;
 }
 
 @font-face {
-    font-family: 'mi fuente2';
-    src: url(../fuentes/FUTRFW.TTF);
+  font-family: "mi fuente";
+  src: url(../fuentes/Louis\ George\ Cafe.ttf);
 }
-
-
-/********************* HEADER *********************/
-
+@font-face {
+  font-family: "mi fuente2";
+  src: url(../fuentes/FUTRFW.TTF);
+}
+/*************** HEADER *****************/
 header {
-    text-align: center;
-    margin: auto;
+  text-align: center;
+  margin: auto;
 }
-
 
 .logo {
-    width: 100px;
-    margin: auto;
+  width: 100px;
+  margin: auto;
 }
 
 .titulo {
-    width: 120px;
-    margin: auto;
-    font-size: 30px;
-    font-family: 'mi fuente2';
-    text-transform: uppercase;
-    font-weight: bold;
+  width: 120px;
+  margin: auto;
+  font-size: 30px;
+  font-family: "mi fuente2";
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
-
 /********************* NAVBAR *********************/
-
-
 .navbar {
-    background-color: #fafafa;
-    height: 60px;
-    max-width: 70%;
-    text-align: center;
-    border-top: 1px #f0f0f0 solid;
-    border-bottom: 1px #f0f0f0 solid;
-    opacity: 95%;
-    margin: auto;
-    font-family: 'mi fuente2';
-    z-index: 999;
+  background-color: #fafafa;
+  height: 60px;
+  max-width: 70%;
+  text-align: center;
+  border-top: 1px #f0f0f0 solid;
+  border-bottom: 1px #f0f0f0 solid;
+  opacity: 95%;
+  margin: auto;
+  font-family: "mi fuente2";
+  z-index: 999;
 }
 
 .navbar-nav {
-    margin: auto;
-    background-color: #fafafa;
+  margin: auto;
+  background-color: #fafafa;
 }
 
 .nav-item {
-    padding: 0px 30px;
-    text-transform: uppercase;
-    margin: auto;
-    font-weight: bold;
+  padding: 0px 30px;
+  text-transform: uppercase;
+  margin: auto;
+  font-weight: bold;
 }
 
 @media (max-width: 1466px) {
-    .nav-item {
-        padding: 10px;
-    }
+  .nav-item {
+    padding: 10px;
+  }
 }
-
 @media (max-width: 1173px) {
-    .nav-item {
-        padding: 7px;
-        font-size: 13px;
-    }
+  .nav-item {
+    padding: 7px;
+    font-size: 13px;
+  }
 }
-
 @media (max-width: 991px) {
-    .navbar {
-        border: 1px #f0f0f0 solid ;
-        max-width: 100%;
-    }
+  .navbar {
+    border: 1px #f0f0f0 solid;
+    max-width: 100%;
+  }
 }
-
 nav a:hover {
-    text-decoration: underline 2px;
+  text-decoration: none;
+  color: #333;
+  text-decoration: underline 2px;
 }
-
-/******************** Main *****************************/
-
-main {
-    min-height: 67vh ;
-}
-
-
 
 /********************* CARRUSEL ******************/
-
 .carousel {
-    max-width: 900px;
-    z-index: 1;
-    margin: auto;
-    margin-bottom: 20px;
-    margin-top: 20px;
+  max-width: 900px;
+  z-index: 1;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 @media (max-width: 991px) {
-    .carousel {
+  .carousel {
     max-width: 80%;
-    }
+  }
 }
-
 @media (max-width: 680px) {
-    .carousel {
+  .carousel {
     max-width: 90%;
-    }
+  }
 }
-
 @media (max-width: 430px) {
-    .carousel {
+  .carousel {
     max-width: 100%;
-    }
+  }
 }
-
-
-
 .btncarousel {
-    height: 200px;
-    background-color: #333;
-    opacity: 0.7;
-    border-radius: 10px;
-
+  height: 200px;
+  background-color: #333;
+  opacity: 0.7;
+  border-radius: 10px;
 }
-
 
 /********************* PRODUCTOS *********************/
-
-
 .cajaSubtitulos {
-    background-color: #fafafa;
-    margin: auto;
-    text-align: center;
-    height: 40px;
-    margin-top: 50px;
-    border: #f0f0f0 1px solid;
-    font-family: 'mi fuente';
-    text-transform: uppercase;
-    font-size: medium;
+  background-color: #fafafa;
+  margin: auto;
+  text-align: center;
+  height: 40px;
+  margin-top: 50px;
+  border: #f0f0f0 1px solid;
+  font-family: "mi fuente";
+  text-transform: uppercase;
+  font-size: medium;
 }
 
 .tarjetaEntera {
-    border: 1px #f0f0f0 solid;
-    height: auto;
-    font-size: 25px;
-    font-family: mi fuente;
-    margin: auto;
-    margin-top: 30px;
+  border: 1px #f0f0f0 solid;
+  height: auto;
+  font-size: 25px;
+  font-family: mi fuente;
+  margin: auto;
+  margin-top: 30px;
 }
 
-
 .card-title {
-    font-size: 33px;
-    text-transform: uppercase;
-    font-weight: bold;
+  font-size: 33px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .img-fluid {
-    width: auto;
+  width: auto;
 }
 
 .card {
-    padding: 10px;
+  padding: 10px;
 }
 
 .coloresDispo {
-    color: #333;
-    font-weight: bold;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
-
-@media (max-width: 470px) {
-    .card-title {
-        font-size: 23px;
-    }
+  color: #333;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
 @media (max-width: 470px) {
-    .tarjetaEntera {
-        font-size: 18px;
-    }
+  .card-title {
+    font-size: 23px;
+  }
 }
-
+@media (max-width: 470px) {
+  .tarjetaEntera {
+    font-size: 18px;
+  }
+}
 .personalizadoGrid {
-    max-width: 70%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-family: mi fuente;
+  max-width: 70%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: mi fuente;
 }
 
 .prodPerso {
-    margin: auto;
-    font-family: mi fuente;
-    font-weight: bold;
-    font-size: 20px;
-    border: #f0f0f0 solid 1px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    grid-template-columns: repeat(4, 1fr);
+  margin: auto;
+  font-family: mi fuente;
+  font-weight: bold;
+  font-size: 20px;
+  border: #f0f0f0 solid 1px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  grid-template-columns: repeat(4, 1fr);
 }
 
-@media (max-width: 1171px){
-    .personalizadoGrid {
-        grid-template-columns: repeat(2, 1fr);
-    }
+@media (max-width: 1171px) {
+  .personalizadoGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .personalizadoGrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/*********************FOOTER*********************/
+footer {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: #f0f0f0;
+  margin-bottom: 0;
+  margin-top: auto;
+  height: fit-content;
 }
 
-@media (max-width: 600px){
-    .personalizadoGrid {
-        grid-template-columns: repeat(1, 1fr);
-    }
+.redes {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: auto;
+}
+.redes img {
+  width: 40px;
+}
+.redes nav {
+  width: 240px;
+  padding-top: 10px;
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.redes a {
+  height: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+.info ul {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.info li {
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+}
+.info a {
+  color: black;
 }
 
 /*************************** COLORES ***************************/
-
-.colorGrid{
-    max-width: 70%;
-    margin: auto;
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-family: mi fuente;
+.colorGrid {
+  max-width: 70%;
+  margin: auto;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: mi fuente;
 }
 
 .imgColor {
-    border-radius: 5px;
-    width: 100%;
-    box-shadow: 2px 2px 10px;
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: 2px 2px 10px;
 }
 
 .colorGrid p {
-    text-decoration: none;
-    color: #020303;
-    font-size: 1.5rem;
+  text-decoration: none;
+  color: #020303;
+  font-size: 1.5rem;
 }
 
-@media (max-width: 1023px){
-    .colorGrid {
-        grid-template-columns: repeat(2, 1fr);
-    }
+@media (max-width: 1023px) {
+  .colorGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
-
-@media (max-width: 600px){
-    .colorGrid {
-        grid-template-columns: repeat(1, 1fr);
-    }
+@media (max-width: 600px) {
+  .colorGrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
-
-
-
 /*************************** UBICACION ***************************/
-
 .dondeContenedor {
-    background-color: #fafafa;
-    font-family: 'mi fuente';
-    height: 60px;
-    margin-bottom: 0%;
-    text-align: center;
-    padding-top: 10px;
-    margin: auto;
-    margin-top: 40px;
-    border: #f0f0f0 2px solid;
+  background-color: #fafafa;
+  font-family: "mi fuente";
+  height: 60px;
+  margin-bottom: 0%;
+  text-align: center;
+  padding-top: 10px;
+  margin: auto;
+  margin-top: 40px;
+  border: #f0f0f0 2px solid;
 }
-
-
 
 .ubi {
-    background-color: #fafafa;
-    width: 50%;
-    height: auto;
-    padding: 30px;
-    border: 3px #333 solid;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 56px;
+  background-color: #fafafa;
+  width: 50%;
+  height: auto;
+  padding: 30px;
+  border: 3px #333 solid;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 56px;
 }
 
 @media (max-width: 991px) {
-    .ubi {
+  .ubi {
     width: 100%;
-    }
+  }
 }
-
 iframe {
-    width: 100%;
+  width: 100%;
 }
 
 /*************************** CONTACTO ****************************/
-
 .contactoContenedor {
-    background-color: #fafafa;
-    font-family: 'mi fuente';
-    width: 100%;
-    height: 60px;
-    margin-bottom: 0%;
-    text-align: center;
-    padding-top: 10px;
-    margin: auto;
-    margin-top: 40px;
-    border: #f0f0f0 2px solid;
-    text-transform: uppercase;
+  background-color: #fafafa;
+  font-family: "mi fuente";
+  width: 100%;
+  height: 60px;
+  margin-bottom: 0%;
+  text-align: center;
+  padding-top: 10px;
+  margin: auto;
+  margin-top: 40px;
+  border: #f0f0f0 2px solid;
+  text-transform: uppercase;
 }
 
 .contacto {
-    background-color: #fafafa;
-    width: 645px;
-    height: 680px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    border: 3px #333 solid;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 110px;
+  background-color: #fafafa;
+  width: 645px;
+  height: 680px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 3px #333 solid;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 110px;
 }
 
 @media (max-width: 991px) {
-    .contacto, label, form, input, textarea {
+  .contacto,
+  label,
+  form,
+  input,
+  textarea {
     max-width: 100%;
-    }
+  }
 }
-
-
 form {
-    font-family: 'mi fuente';
+  font-family: "mi fuente";
 }
 
 label {
-    display: block;
-    font-weight: bold;
-    font-size: 20px;
-    margin-bottom: 5px;
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
 }
 
-input, textarea {
-    display: block;
-    width: 580px;
-    padding: 10px;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    font-family: 'mi fuente';
+input,
+textarea {
+  display: block;
+  width: 580px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "mi fuente";
 }
 
 .botonForm {
-    background-color: #333;
-    color: #fff;
-    margin: auto;
-    margin-top: 10px;
-    cursor: pointer;
-    margin-left: auto;
+  background-color: #333;
+  color: #fff;
+  margin: auto;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-left: auto;
 }
 
-
-
-
-/*********************FOOTER*********************/
-
-footer {
-display: grid;
-width: 100%;
-grid-template-columns: 1fr;
-grid-template-rows: 1fr 1fr;
-background-color: #f0f0f0;
-margin-bottom: 0;
-margin-top: auto;
-height: fit-content;
+/******************** MAIN *****************************/
+main {
+  min-height: 67vh;
 }
 
-
-.redes {
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: auto;
-}
-
-.redes img {
-    width: 40px;
-}
-
-.redes nav {
-    width: 240px;
-    padding-top: 10px;
-    display: flex;
-    height: 100%;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.redes a {
-    height: fit-content;
-    display: flex;
-    align-items: center;
-}
-
-
-
-.info ul {
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.info li {
-    width: 100%;
-    font-weight: bold;
-    text-align: center;
-}
-
-.info a {
-    color: black;
-}
+/*# sourceMappingURL=estilo.css.map */

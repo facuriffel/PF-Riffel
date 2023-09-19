@@ -1,0 +1,90 @@
+/********************* PRODUCTOS *********************/
+
+.cajaSubtitulos {
+  background-color: $color-blanco;
+  margin: auto;
+  text-align: center;
+  height: 40px;
+  margin-top: 50px;
+  border: $color-borde-blanco 1px solid;
+  font-family: 'mi fuente';
+  text-transform: uppercase;
+  font-size: medium;
+}
+
+.tarjetaEntera {
+  border: 1px $color-borde-blanco solid;
+  height: auto;
+  font-size: 25px;
+  font-family: mi fuente;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.card-title {
+  font-size: 33px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.img-fluid {
+  width: auto;
+}
+
+.card {
+  padding: 10px;
+}
+
+.coloresDispo {
+  color: $color-gris;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+@media (max-width: 470px) {
+  .card-title {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 470px) {
+  .tarjetaEntera {
+    font-size: 18px;
+  }
+}
+
+.personalizadoGrid {
+  max-width: 70%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: mi fuente;
+}
+
+.prodPerso {
+  margin: auto;
+  font-family: mi fuente;
+  font-weight: bold;
+  font-size: 20px;
+  border: $color-borde-blanco solid 1px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 1171px) {
+  .personalizadoGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .personalizadoGrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
