@@ -15,7 +15,6 @@
 /********************* HEADER *********************/
 
 header {
-    width: 125px;
     text-align: center;
     margin: auto;
 }
@@ -77,9 +76,10 @@ header {
     }
 }
 
-@media (max-width: 990px) {
+@media (max-width: 991px) {
     .navbar {
         border: 1px #f0f0f0 solid ;
+        max-width: 100%;
     }
 }
 
@@ -87,11 +87,18 @@ nav a:hover {
     text-decoration: underline 2px;
 }
 
+/******************** Main *****************************/
+
+main {
+    min-height: 67vh ;
+}
+
+
 
 /********************* CARRUSEL ******************/
 
 .carousel {
-    max-width: 50%;
+    max-width: 900px;
     z-index: 1;
     margin: auto;
     margin-bottom: 20px;
@@ -100,7 +107,19 @@ nav a:hover {
 
 @media (max-width: 991px) {
     .carousel {
-    max-width: 70%;
+    max-width: 80%;
+    }
+}
+
+@media (max-width: 680px) {
+    .carousel {
+    max-width: 90%;
+    }
+}
+
+@media (max-width: 430px) {
+    .carousel {
+    max-width: 100%;
     }
 }
 
@@ -109,6 +128,7 @@ nav a:hover {
 .btncarousel {
     height: 200px;
     background-color: #333;
+    opacity: 0.7;
     border-radius: 10px;
 
 }
@@ -129,14 +149,13 @@ nav a:hover {
     font-size: medium;
 }
 
-
 .tarjetaEntera {
-    border: 3px #f0f0f0 solid;
+    border: 1px #f0f0f0 solid;
     height: auto;
     font-size: 25px;
     font-family: mi fuente;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 
@@ -147,35 +166,34 @@ nav a:hover {
 }
 
 .img-fluid {
-    width: 600px;
+    width: auto;
 }
 
 .card {
-    height: 515px;
     padding: 10px;
 }
 
-@media (max-width: 1020px) {
-    .card {
-        height: 450px;
-    }
+.coloresDispo {
+    color: #333;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
 
-@media (max-width: 767px) {
-    .card {
-        height: 800px;
-        margin-left: 10px;
-        margin-right: 10px;
+@media (max-width: 470px) {
+    .card-title {
+        font-size: 23px;
     }
 }
 
+@media (max-width: 470px) {
+    .tarjetaEntera {
+        font-size: 18px;
+    }
+}
 
-
-
-/*************************** COLORES ***************************/
-
-.colorGrid{
+.personalizadoGrid {
     max-width: 70%;
     margin: auto;
     display: grid;
@@ -187,8 +205,48 @@ nav a:hover {
     font-family: mi fuente;
 }
 
+.prodPerso {
+    margin: auto;
+    font-family: mi fuente;
+    font-weight: bold;
+    font-size: 20px;
+    border: #f0f0f0 solid 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 1171px){
+    .personalizadoGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px){
+    .personalizadoGrid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/*************************** COLORES ***************************/
+
+.colorGrid{
+    max-width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: mi fuente;
+}
+
 .imgColor {
+    border-radius: 5px;
     width: 100%;
+    box-shadow: 2px 2px 10px;
 }
 
 .colorGrid p {
@@ -203,6 +261,12 @@ nav a:hover {
     }
 }
 
+@media (max-width: 600px){
+    .colorGrid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
 
 
 /*************************** UBICACION ***************************/
@@ -210,7 +274,6 @@ nav a:hover {
 .dondeContenedor {
     background-color: #fafafa;
     font-family: 'mi fuente';
-    width: 663px;
     height: 60px;
     margin-bottom: 0%;
     text-align: center;
@@ -224,22 +287,31 @@ nav a:hover {
 
 .ubi {
     background-color: #fafafa;
-    width: 665px;
-    height: 510px;
+    width: 50%;
+    height: auto;
     padding: 30px;
     border: 3px #333 solid;
     margin: auto;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-bottom: 56px;
 }
 
+@media (max-width: 991px) {
+    .ubi {
+    width: 100%;
+    }
+}
+
+iframe {
+    width: 100%;
+}
 
 /*************************** CONTACTO ****************************/
 
 .contactoContenedor {
     background-color: #fafafa;
     font-family: 'mi fuente';
-    width: 645px;
+    width: 100%;
     height: 60px;
     margin-bottom: 0%;
     text-align: center;
@@ -247,6 +319,7 @@ nav a:hover {
     margin: auto;
     margin-top: 40px;
     border: #f0f0f0 2px solid;
+    text-transform: uppercase;
 }
 
 .contacto {
@@ -259,8 +332,14 @@ nav a:hover {
     padding-bottom: 30px;
     border: 3px #333 solid;
     margin: auto;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-bottom: 110px;
+}
+
+@media (max-width: 991px) {
+    .contacto, label, form, input, textarea {
+    max-width: 100%;
+    }
 }
 
 

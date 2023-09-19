@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- BS CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="../css/estilo.css">
-    <title>Bulk</title>
+    <title>Bulk -- Productos</title>
+    <link rel="icon" type="image/png" href="../imagenes/favicon.png"/>
 </head>
 
 <body>
@@ -15,99 +18,168 @@
     <header>
         <a href="../index.html"><img class="logo" src="../imagenes/Bulk.png" alt="Logo Bulk"></a>
         <h1 class="titulo">Bulk</h1>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary, container-fluid" >
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="colores.html">Colores</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="ubicacion.html">Ubicacion</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
     </header>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary, container-fluid" >
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="productos.html">Productos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="colores.html">Colores</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="ubicacion.html">Ubicacion</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contacto.html">Contacto</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
 
 
       <!-- PRODUCTOS -->
+      <!-- DISEÑOS PROPIOS -->
 
   <main>
 
       <div class="cajaSubtitulos container-fluid">
-        <h2>Productos disponibles</h2>
+        <h2>Diseños propios</h2>
     </div>
 
-      <div class="card mb-3 tarjetaEntera" style="max-width: 1200px;">
+      <div data-aos="fade-up"
+      data-aos-duration="3000" class="card mb-3 tarjetaEntera" style="max-width: 1000px;">
         <div class="row g-0">
           <div class="col-md-6">
-            <img src="../imagenes/productoAuto.png" class="img-fluid rounded-start" alt="Auto de Juguete">
+            <img src="../imagenes/alhanaMaceta.jpeg" class="img-fluid rounded-start" alt="Maceta Porta sahumerios Alhana">
           </div>
           <div class="col-md-6">
             <div class="card-body">
-              <h5 class="card-title">Auto de Juguete</h5>
-              <p class="card-text">Auto de Juguete destinado al entretenimiento infantil... Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quam labore sequi saepe odit assumenda quod? Error hic debitis maiores totam consectetur! Quisqua.</p>
+              <h5 class="card-title">~Alhana~</h5>
+              <p class="card-text">Diseño propio de Bulk. Este se caracteriza por responder a dos funciones: la de macetero (pieza color nude) y la de porta sahumerio (pieza de color naranja). Averigua por todos los <a class="coloresDispo" href="colores.html">colores</a> disponibles y combinalo como quieras.</p>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="card mb-3 tarjetaEntera" style="max-width: 1200px;">
+      <div data-aos="fade-up"
+      data-aos-duration="3000" class="card mb-3 tarjetaEntera" style="max-width: 1000px;">
         <div class="row g-0">
           <div class="col-md-6">
-            <img src="../imagenes/productoCuerpo.png" class="img-fluid rounded-start" alt="Auto de Juguete">
+            <img src="../imagenes/lapicero.jpeg" class="img-fluid rounded-start" alt="Lapicero Paramétrico">
           </div>
           <div class="col-md-6">
             <div class="card-body">
-              <h5 class="card-title">Cuerpo Humano</h5>
-              <p class="card-text">Cuerpo Humano destinado a la educacion sobre el mismo o decoracion... Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quam labore sequi saepe odit assumenda quod? Error hic debitis maiores totam consectetur! Quisqua.</p>
+              <h5 class="card-title">Lapicero Paramétrico</h5>
+              <p class="card-text">Diseño propio de Bulk de un práctico accesorio de escritorio o almacenamiento diseñado para organizar y mantener ordenados lápices, bolígrafos, marcadores, etc. Averigua por todos los <a class="coloresDispo" href="colores.html">colores</a> disponibles.</p>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="card mb-3 tarjetaEntera" style="max-width: 1200px;">
+      <div data-aos="fade-up"
+      data-aos-duration="3000" class="card mb-3 tarjetaEntera" style="max-width: 1000px;">
         <div class="row g-0">
           <div class="col-md-6">
-            <img src="../imagenes/productoCorazon.png" class="img-fluid rounded-start" alt="Auto de Juguete">
+            <img src="../imagenes/macetaMolde.jpeg" class="img-fluid rounded-start" alt="Molde para macetas">
           </div>
           <div class="col-md-6">
             <div class="card-body">
-              <h5 class="card-title">Corazón Humano</h5>
-              <p class="card-text">Corazón Humano destinado destinado a la educacion sobre el mismo... Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quam labore sequi saepe odit assumenda quod? Error hic debitis maiores totam consectetur! Quisqua.</p>
+              <h5 class="card-title">Molde para macetas</h5>
+              <p class="card-text">Diseño, modelado e impresion 3D de una matriz para macetas a base de los restos de yerba mate. Averigua por todos los <a class="coloresDispo" href="colores.html">colores</a> disponibles.</p>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="card mb-3 tarjetaEntera" style="max-width: 1200px;">
-        <div class="row g-0">
-          <div class="col-md-6">
-            <img src="../imagenes/productoMano.png" class="img-fluid rounded-start" alt="Auto de Juguete">
-          </div>
-          <div class="col-md-6">
-            <div class="card-body">
-              <h5 class="card-title">Mano Humana</h5>
-              <p class="card-text">Mano Humana destinada al entretenimiento infantil o educacion de la misma... Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quam labore sequi saepe odit assumenda quod? Error hic debitis maiores totam consectetur! Quisqua.</p>
-            </div>
-          </div>
-        </div>
+
+      <!-- PERSONALIZADOS -->
+
+      <div class="cajaSubtitulos container-fluid">
+        <h2>Personalizados</h2>
+    </div>
+
+  <div class="personalizadoGrid">
+    <div data-aos="fade-right" data-aos-duration="3000" class="card prodPerso" style="width: 18rem;">
+      <img src="../imagenes/spotifyPerso.jpeg" class="card-img-top" alt="Llavero de codigo de Spotify">
+      <div class="card-body">
+        <p class="card-text">Llavero codigo de Spotify</p>
       </div>
+    </div>
+
+    <div data-aos="fade-up"
+    data-aos-duration="3000" class="card prodPerso" style="width: 18rem;">
+      <img src="../imagenes/moldeMacetas.jpeg" class="card-img-top" alt="Molde para Macetas">
+      <div class="card-body">
+        <p class="card-text">Molde para Macetas</p>
+      </div>
+    </div>
+
+    <div data-aos="fade-up"
+    data-aos-duration="3000" class="card prodPerso" style="width: 18rem;">
+      <img src="../imagenes/sellos.jpeg" class="card-img-top" alt="Sellos personalizados">
+      <div class="card-body">
+        <p class="card-text">Sellos personalizados</p>
+      </div>
+    </div>
+
+    <div data-aos="fade-left" data-aos-duration="3000" class="card prodPerso" style="width: 18rem;">
+      <img src="../imagenes/centroTorta.jpeg" class="card-img-top" alt="Centro de torta de Julian Alvarez">
+      <div class="card-body">
+        <p class="card-text">Centro de torta</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- STL -->
+
+  <div class="cajaSubtitulos container-fluid">
+    <h2>STL</h2>
+</div>
+
+<div class="personalizadoGrid">
+<div data-aos="fade-right" data-aos-duration="3000" class="card prodPerso" style="width: 18rem;">
+  <img src="../imagenes/robertMacetero.jpeg" class="card-img-top" alt="Robert Macetero">
+  <div class="card-body">
+    <p class="card-text">Macetero "Robert"</p>
+  </div>
+</div>
+
+<div data-aos="fade-up"
+data-aos-duration="3000" class="card prodPerso" style="width: 18rem;">
+  <img src="../imagenes/snitchDorada.jpeg" class="card-img-top" alt="Snitch Dorada de Harry Potter">
+  <div class="card-body">
+    <p class="card-text">Snitch Dorada</p>
+  </div>
+</div>
+
+<div data-aos="fade-up"
+data-aos-duration="3000" class="card prodPerso" style="width: 18rem;">
+  <img src="../imagenes/dragonArticulado.jpeg" class="card-img-top" alt="Dragon Articulado">
+  <div class="card-body">
+    <p class="card-text">Dragon Articulado</p>
+  </div>
+</div>
+
+<div data-aos="fade-left" data-aos-duration="3000" class="card prodPerso" style="width: 18rem;">
+  <img src="../imagenes/soporteAuris.jpeg" class="card-img-top" alt="Soporte para Auriculares">
+  <div class="card-body">
+    <p class="card-text">Soporte para Auriculares</p>
+  </div>
+</div>
+</div>
 
   </main>
 
@@ -136,7 +208,10 @@
     </div>
 </footer>
       
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
